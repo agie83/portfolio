@@ -20,7 +20,7 @@ export default function Project({ projectData }) {
         <div className="w-full h-auto m-auto  rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <img
             className="rounded-sm shadow-lg"
-            src={`http://aeweb.hu/portfolio-images/${bgImg}`}
+            src={`/assets/projects/${bgImg}`}
             alt={title}
           />
         </div>
