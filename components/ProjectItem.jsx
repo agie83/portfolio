@@ -4,7 +4,6 @@ import Link from "next/link";
 import React from "react";
 
 const ProjectItem = ({ title, backgroundImg, tech, projectUrl, place }) => {
-  //const imgPath = "http://aeweb.hu/portfolio-images/";
   const imgPath = "/assets/projects/";
   const fontSize = place === "menuPage" ? "text-lg" : "text-2xl";
   const buttonTextSize = place === "menuPage" ? "text-sm" : "text-lg";
